@@ -1,0 +1,16 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,2446.72,29360.64,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (40 GB), Instance type (a1.2xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,5676.9,68122.8,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (50 GB), Instance type (db.r5.4xlarge), Additional backup storage (500 GB)"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Route 53,0,52.2,626.4,USD,Hosted Zones (1)
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,65.88,790.56,USD,Number of NAT Gateways (2)
+Initial_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,978.93,11747.16,USD,Number of Application Load Balancers (2)
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Elastic IP,0,43.8,525.6,USD,"Number of EC2 instances (4), Number of EIPs per instance (4), Number of EIP remaps (0)"
+Initial_Cost_Estimate,US East (N. Virginia),S3 Standard,0,55.15,661.8,USD,S3 Standard storage (2 TB per month)
+Initial_Cost_Estimate,US East (N. Virginia),Data Transfer,0,92.07,1104.84,USD,"Data Transfer, Data transfer cost (92.07)"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+https://calculator.aws/#/estimate?id=693cf7eb65cd1735762111dc038c7ca3fa837989,,,,,,,

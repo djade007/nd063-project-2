@@ -1,0 +1,17 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,11770.88,141250.56,USD,"Operating system (Linux), Quantity (32), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (40 GB), Instance type (a1.4xlarge), Provisioning IOPS (1000)"
+Increased_Cost_Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,6078.9,72946.8,USD,"Quantity (2), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (50 GB), Instance type (db.r5.4xlarge), Additional backup storage (500 GB), Provisioning IOPS (1000)"
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Route 53,0,52.2,626.4,USD,Hosted Zones (1)
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,65.88,790.56,USD,Number of NAT Gateways (2)
+Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,978.93,11747.16,USD,Number of Application Load Balancers (2)
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Elastic IP,0,43.8,525.6,USD,"Number of EC2 instances (4), Number of EIPs per instance (4), Number of EIP remaps (0)"
+Increased_Cost_Estimate,US East (N. Virginia),S3 Standard,0,55.15,661.8,USD,S3 Standard storage (2 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),Data Transfer,0,92.07,1104.84,USD,"Data Transfer, Data transfer cost (92.07)"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Narrative,,,,,,,"I changed the RDS storage type from General purpose gp2 to Provisioned IOPS SSD and also increased the capacity from db.r5.2xlarge to db.r5.4xlarge, To improve the db processing speed."
+Narrative,,,,,,,"I changed the EC2 storage type from General purpose gp2 to Provisioned IOPS SSD, increased the capacity from a1.2xlarge to a1.2xlarge and finally increased the number of ec2 instances per subnet from 4 to 8. To increase the load capacity"
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+https://calculator.aws/#/estimate?id=402d4016c84603d16146dc1514262aea1e6feab9,,,,,,,
